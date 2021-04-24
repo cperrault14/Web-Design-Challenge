@@ -16,22 +16,30 @@
           <a href="#">Summary</a>
         </li>
         <li>
-          <div class="Plot" style="width:100px;">
-            <select>
-              <option value="0">Plots:</option>
-              <option value="1">Temperature</option>
-              <option value="2">Humidity</option>
-              <option value="3">Cloudiness</option>
-              <option value="4">Wind</option>
+     <!-- <form>
+    <select name="list" id="list" accesskey="target">
+              <option value="none">Plots</option>
+              <option value = <a href="Plot_1_Page.html">>Temperature</option></a>
+              <option value="Plot_2_Page.html">Humidity</option>
+              <option value="Plot_3_Page.html">Cloudiness</option>
+              <option value="Plot_4_Page.html">Wind</option>
             </select>
-        </a>
+        -->
+        <div class="dropdown">
+            <button class="dropbtn">Plots</button>
+            <div class="dropdown-content">
+              <a href="Plot_1_Page.html">Temperature</a>
+              <a href="Plot_2_Page.html">Humidty</a>
+              <a href="Plot_3_Page.html">Cloudiness</a>
+              <a href="Plot_4_Page.html">Wind</a>
+            </div>
           </div>
         </li>
         <li>
           <a href="Comparison_Page.html">Comparison</a>
         </li>
         <li>
-          <a href="#">Data</a>
+          <a href="table.html">Data</a>
         </li>
       </ul>
     </nav>
@@ -56,9 +64,6 @@ To accomplish this, I utilized several Python libraries, and OpenWeatherMap API 
 </p>
 
 <h2>Visualizations</h2>
-
-
-
 
   <!-- Image -->
   <div class="row">
