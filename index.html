@@ -6,19 +6,45 @@
   <title>Latitude Analysis</title>
 </head>
 
- <!-- Adding navigation menu -->
- <div class="topnav">
-    <div class="topnav-right">
-    <a href="#active">Summary</a>
-    <a class="Plots" href="#Plots">Plots</a>
-    <a href="#Comparison">Comparison</a>
-    <a href="#Data">Data</a>
-    </div>
-  </div>
+
+
+<!-- Adding navigation menu -->
+<div class="container">
+    <nav class="navbar">
+      <ul>
+        <li>
+          <a href="#">Summary</a>
+        </li>
+        <li>
+          <div class="Plot" style="width:100px;">
+            <select>
+              <option value="0">Plots:</option>
+              <option value="1">Temperature</option>
+              <option value="2">Humidity</option>
+              <option value="3">Cloudiness</option>
+              <option value="4">Wind</option>
+            </select>
+        </a>
+          </div>
+        </li>
+        <li>
+          <a href="#">Comparison</a>
+        </li>
+        <li>
+          <a href="#">Data</a>
+        </li>
+      </ul>
+    </nav>
+</div>
+
+
+<!-- Adding navigation menu -->
+
+
 
 <body>
   <!-- Header -->
-  <h1>Summary Page</h1>
+  <h3>Summary Page</h3>
 
 <p>
 
@@ -26,18 +52,25 @@ This project consists of creating a Python script to visualize the weather of 50
 </p>
 
 <p>
-To accomplish this, I utilized several Python libraries, and OpenWeatherMap API and my knowledged of Python coding to create 4 plots that compare the Latitude of each city against 4 other variables (Temperature, Humidity, Cloudiness, . 
+To accomplish this, I utilized several Python libraries, and OpenWeatherMap API and my knowledged of Python coding to create 4 plots that compare the Latitude of each city against 4 other variables (Temperature, Humidity, Cloudiness, Wind)
 </p>
 
 <h2>Visualizations</h2>
 
+
+
+
   <!-- Image -->
   <div class="row">
     <div class="column">
+    <a href="Plot_1_Page.html">
       <img src="C:\Users\cperr\Desktop\Web-Design-Challenge\Temp vs Lat.png" alt="Temperature" style="width:75%">
+    </a>
     </div>
     <div class="column">
+    <a href="Plot_2_Page.html">
       <img src="C:\Users\cperr\Desktop\Web-Design-Challenge\Hum vs.Lat.png" alt="Humidity" style="width:75%">
+    </a>
     </div>
     <div class="column">
       <img src="C:\Users\cperr\Desktop\Web-Design-Challenge\Clou vs.Lat.png" alt="Cloudiness" style="width:75%">
