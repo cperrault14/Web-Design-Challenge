@@ -1,38 +1,51 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
+    <link rel="stylesheet" href="styles.css">
 <head>
   <meta charset="UTF-8">
   <title>Latitude Analysis</title>
 </head>
 
+ <!-- Adding navigation menu -->
+ <div class="topnav">
+    <div class="topnav-right">
+    <a href="#active">Summary</a>
+    <a class="Plots" href="#Plots">Plots</a>
+    <a href="#Comparison">Comparison</a>
+    <a href="#Data">Data</a>
+    </div>
+  </div>
+
 <body>
   <!-- Header -->
   <h1>Summary Page</h1>
 
+<p>
+
+This project consists of creating a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. 
+</p>
+
+<p>
+To accomplish this, I utilized several Python libraries, and OpenWeatherMap API and my knowledged of Python coding to create 4 plots that compare the Latitude of each city against 4 other variables (Temperature, Humidity, Cloudiness, . 
+</p>
+
+<h2>Visualizations</h2>
+
   <!-- Image -->
-  <img src="C:\Users\cperr\Desktop\Python-API-Challenge\WeatherPy\Temp vs Lat.png" />
-  <br>
-
-  <img src="C:\Users\cperr\Desktop\Python-API-Challenge\WeatherPy\Hum vs.Lat.png" />
-  <br>
-
-  <img src="C:\Users\cperr\Desktop\Python-API-Challenge\WeatherPy\Clou vs.Lat.png" />
-  <br>
-
-  <img src="C:\Users\cperr\Desktop\Python-API-Challenge\WeatherPy\Win vs.Lat.png" />
-  <br>
-
-  <!-- Link with New Tab -->
-  <a href="https://www.google.com" target="_blank">Opens new tab</a>
-  <br>
-
-  <!-- Bold Link -->
-  <strong><a href="https://www.youtube.com">This is a bold link</a></strong>
-  <br>
-
-  <!-- Placeholder link -->
-  <a href="#">This is placeholder link goes nowhere, for now</a>
+  <div class="row">
+    <div class="column">
+      <img src="C:\Users\cperr\Desktop\Web-Design-Challenge\Temp vs Lat.png" alt="Temperature" style="width:75%">
+    </div>
+    <div class="column">
+      <img src="C:\Users\cperr\Desktop\Web-Design-Challenge\Hum vs.Lat.png" alt="Humidity" style="width:75%">
+    </div>
+    <div class="column">
+      <img src="C:\Users\cperr\Desktop\Web-Design-Challenge\Clou vs.Lat.png" alt="Cloudiness" style="width:75%">
+    </div>
+    <div class="column">
+        <img src="C:\Users\cperr\Desktop\Web-Design-Challenge\Win vs.Lat.png" alt="Wind" style="width:75%">
+      </div>
+  </div>
 
 </body>
 
