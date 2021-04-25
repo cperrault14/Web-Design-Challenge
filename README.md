@@ -12,4 +12,4 @@ Latitude vs. Wind
 
 Overall, Python, HTML, CSS, and Bootstrap were used for the completion of this project.
 
-Github page:  https://cperrault14.github.io/Web-Design-Challenge/
+
