@@ -128,7 +128,7 @@ body {
   /* small screen adjustments*/
 @media(max-width:767px){
     .navbar.bg-light{
-        background-color: rgb(81, 175, 160)!important;    
+        background-color: rgb(242, 247, 246)!important;    
     }
 
     .navbar-collapse{
